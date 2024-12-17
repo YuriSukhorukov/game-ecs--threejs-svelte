@@ -1,0 +1,30 @@
+.container {
+  --height: 15;
+  --border-radius: calc(0.5 * var(--gutter-width));
+
+  border: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // left: var(--gutter-width);
+  // width: calc(100% - var(--gutter-width) * 2);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+
+  padding: var(--gutter-width);
+
+  ul {
+    display: block;
+    display: flex;
+    gap: var(--gutter-height);
+    padding: var(--gutter-width);
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      flex: 1;
+    }
+  }
+}

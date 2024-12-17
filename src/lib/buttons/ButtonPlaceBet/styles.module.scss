@@ -1,0 +1,8 @@
+.container {
+  button {
+    --height: 10;
+    width: 100%;
+    height: calc(var(--height) * var(--gutter-height));
+    border-radius: var(--gutter-height);
+  }
+}

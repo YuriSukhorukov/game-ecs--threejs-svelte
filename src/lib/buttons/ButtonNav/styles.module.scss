@@ -1,0 +1,10 @@
+.container {
+  --height: 8;
+
+  button {
+    width: 100%;
+    height: calc(var(--height) * var(--gutter-height));
+    border-radius: var(--gutter-height);
+    border: 1px solid red;
+  }
+}

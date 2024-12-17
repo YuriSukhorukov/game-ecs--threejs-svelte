@@ -1,0 +1,31 @@
+{
+  "name": "tma-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@types/three": "^0.169.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-svelte": "^3.2.7",
+    "sass": "^1.77.8",
+    "svelte": "^4.2.18",
+    "vite": "^5.4.8",
+    "vite-plugin-glsl": "^1.3.0",
+    "vite-plugin-gltf": "^4.0.0",
+    "vite-plugin-top-level-await": "^1.4.4",
+    "vite-plugin-wasm": "^3.3.0"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.14.0",
+    "@recast-navigation/three": "^0.35.2",
+    "recast-navigation": "^0.35.2",
+    "three": "^0.169.0",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}

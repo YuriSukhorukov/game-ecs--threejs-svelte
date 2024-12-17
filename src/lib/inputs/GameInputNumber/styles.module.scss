@@ -1,0 +1,10 @@
+.container {
+  input {
+    width: 100%;
+    height: calc(var(--gutter-height) * 5);
+    // border-radius: var(--gutter-height);
+  }
+  input[type="number"] {
+    appearance: textfield;
+  }
+}
