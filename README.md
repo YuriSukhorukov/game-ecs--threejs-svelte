@@ -1,4 +1,4 @@
-# Svelte & Three.js & Rappier Physics + Vite
+# Svelte & Three.js & Rapier Physics + Vite
 
 ```bash
 git clone [URL]
